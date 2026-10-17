@@ -4,6 +4,10 @@
 
 Juego galáctico de estrategia y match-3 de Pilukarts. Cinco soldados de colores forman un escuadrón: el jugador decide su posición y los matches activan su avance, sus ataques y sus habilidades.
 
+## Campamento del accidente
+
+La nueva pantalla principal incluye prólogo ilustrado de tres escenas, cinco soldados, tres misiones, recompensas únicas, refugio y taller construibles, y reparación del analizador y las comunicaciones. Las misiones conectan con el match anterior en `dist/battle.html`. Su motor no cambia. La temporada de 500 niveles está planificada, todavía no implementada.
+
 ## Estado actual
 
 Este repositorio conserva el primer prototipo jugable como base técnica. Incluye tablero de 7×7, cinco colores, contraataques de la máquina, cascadas, energía, tres rondas de match, un jefe con cartas, evolución visual del casco y progreso local. El laboratorio de merge anterior está en `dist/merge.html`.
@@ -40,6 +44,7 @@ Requiere Node.js:
 
 ```bash
 node checks/game-check.cjs
+node checks/camp-check.cjs
 node --check dist/game.js
 node --check dist/engine.js
 ```
@@ -48,7 +53,8 @@ Las comprobaciones cubren generación de tableros jugables, matches de 3–7, in
 
 ## Archivos
 
-- `dist/index.html`, `style.css`: interfaz del prototipo.
+- `dist/index.html`, `camp.css`, `camp.js`, `camp-state.js`: campamento y supervivencia.
+- `dist/battle.html`, `style.css`: prototipo de combate conservado.
 - `dist/engine.js`: reglas del tablero.
 - `dist/game.js`: campaña, energía y combate.
 - `dist/assets/`: conceptos visuales MC generados durante el diseño, optimizados en WebP.

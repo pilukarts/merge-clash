@@ -31,3 +31,10 @@
 
 - [ ] Recoger opiniones de jugadores y medir si desean volver a jugar.
 - [ ] Valorar coleccionables NFT solo después de validar el juego.
+
+## Actualización del campamento
+
+- [x] Campamento ilustrado, prólogo y tres misiones conectadas.
+- [x] Recompensas, costes de construcción y primeras reparaciones.
+- [ ] Nave completa/accidentada y piezas modulares coleccionables.
+- [ ] Temporada de 500 niveles: planificar 10 sectores × 50; implementar y probar primero el sector inicial.

@@ -4,6 +4,10 @@
 
 A Pilukarts galactic strategy and match-3 game. Place five colored soldiers strategically, then activate their movement, attacks and abilities with matches of the corresponding color.
 
+## Crash-site camp
+
+The home screen now includes an illustrated three-scene prologue, five-soldier squad, three-mission route, one-time salvage rewards, a buildable shelter/workshop, and analyzer/communications repairs. Missions connect to the existing match prototype at `dist/battle.html`. The match engine is unchanged. The planned 500-level season is not implemented.
+
 ## Current status
 
 This repository contains the first playable prototype as a technical starting point: a 7×7 board, five colors, AI counterattacks, cascades, soldier energy, three match rounds, a final card boss battle, helmet promotion animation, evolution points and local progress. The previous merge lab is available at `dist/merge.html`.
@@ -40,6 +44,7 @@ Requires Node.js:
 
 ```bash
 node checks/game-check.cjs
+node checks/camp-check.cjs
 node --check dist/game.js
 node --check dist/engine.js
 node --check dist/i18n.js
@@ -49,7 +54,8 @@ Checks cover playable boards, matches of 3–7, swaps, cascades, a complete camp
 
 ## Files
 
-- `dist/index.html`, `style.css`: prototype interface.
+- `dist/index.html`, `camp.css`, `camp.js`, `camp-state.js`: camp and survival progression.
+- `dist/battle.html`, `style.css`: preserved battle prototype.
 - `dist/engine.js`: match rules.
 - `dist/game.js`: campaign, energy and combat.
 - `dist/i18n.js`: English/Spanish selector and interface translations.

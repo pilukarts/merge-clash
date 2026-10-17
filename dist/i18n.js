@@ -1,6 +1,7 @@
 (function(){
 let lang;try{lang=localStorage.getItem('mc-language')||'es'}catch{lang='es'}
 const exact={
+'Volver al campamento ↗':'Return to camp ↗','← Campamento':'← Camp',
 'Cinco colores.':'Five colors.','Una sola tropa.':'One squad.',
 'Combina tu poder. Carga a tus soldados.':'Match your power. Charge your soldiers.',
 'Conquista la batalla final.':'Win the final battle.',

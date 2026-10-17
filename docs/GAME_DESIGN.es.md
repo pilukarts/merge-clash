@@ -45,3 +45,19 @@ En niveles altos se desbloquean soldados con cañones, artillería y tanques. De
 ## Coleccionables
 
 Primero validar que el juego resulta divertido. Los soldados podrían convertirse en NFT si el proyecto tiene interés real. No se ha decidido blockchain, cantidad, precio ni utilidades. El juego actual no integra servicios de blockchain.
+
+## Campaña de supervivencia — actualización
+
+Los cinco soldados estaban en una ronda de vigilancia. Una tormenta eléctrica desvió la nave y provocó un aterrizaje de emergencia en un planeta desconocido, habitado también por tropas de otros mundos. Fiery, el cadete rojo, despierta entre los restos. Ninguno puede quitarse el casco hasta comprobar el aire: el analizador atmosférico está averiado.
+
+El campamento en el lugar del accidente conecta mapa, taller, nave, escuadrón y match. Las batallas dan puntos de evolución, cascos, armaduras y materiales; el camino ofrece suministros y restos de tecnología. El taller permitirá fusionar piezas repetidas y fabricar equipo. La nave se repara gradualmente y refleja el progreso de la campaña.
+
+### Plan de temporada
+
+Objetivo de diseño: **500 niveles en 10 sectores de 50**, todavía no implementados. Construir y probar primero el sector inicial, sin presentar los 500 niveles como contenido disponible. Cada sector añade exploración, encuentros, historias y componentes de reparación.
+
+Diseñar una nave completa, una versión accidentada y un conjunto de piezas coherentes con sus sistemas. Su distribución en el camino puede variar, pero los componentes imprescindibles tendrán fuentes garantizadas mediante misiones: el azar no debe bloquear la reparación ni obligar a reiniciar.
+
+### Implementado en el campamento inicial
+
+Prólogo ilustrado de tres escenas, cinco soldados, mapa con tres misiones, recompensas únicas de aleación/circuitos/cristales, refugio y taller construibles, analizador y comunicaciones reparables. Las misiones se completan ganando una ronda del match existente. Motores y escudos están reservados a sectores posteriores. Las piezas físicas de la nave repartidas por el camino, el inventario de armaduras y la fusión de equipo siguen pendientes. La lógica del match permanece intacta.

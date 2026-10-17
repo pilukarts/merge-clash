@@ -43,3 +43,19 @@ Higher levels introduce cannon soldiers, artillery and tanks, retaining the link
 ## Collectibles
 
 Validate enjoyment first. The soldiers could later become NFTs if the game attracts interest. No blockchain, supply, price or utilities have been selected. No blockchain integration exists in the prototype.
+
+## Survival campaign — update
+
+The five soldiers were on a surveillance patrol when an electrical storm sent their ship off course, forcing an emergency landing on an unknown planet also inhabited by troops from other worlds. Fiery, the red cadet, wakes in the wreckage. Nobody can remove their helmet until the air is checked: the atmospheric analyzer is broken.
+
+The crash-site camp connects the map, workshop, ship, squad and match battles. Battles will award evolution points, helmets, armor and materials; exploration will provide supplies and salvaged technology. The workshop will merge duplicates and craft equipment. Gradual ship repairs will reflect campaign progress.
+
+### Season plan
+
+Design target: **500 levels in 10 sectors of 50**, not implemented content. Build and test the first sector before expanding. Each sector introduces exploration, encounters, stories and repair components.
+
+Create an intact ship, a damaged version and a coherent set of system parts. Placement along the route may vary, but critical components must have guaranteed mission sources: randomness must not block repairs or force a restart.
+
+### Implemented first camp
+
+Three illustrated prologue scenes, five soldiers, a three-mission route, one-time alloy/circuit/crystal rewards, buildable shelter and workshop, repairable analyzer and communications. Win an existing match round to complete a mission. Engines and shields are reserved for later sectors. Physical ship parts on the route, armor inventory and equipment fusion are pending. Match logic is unchanged.

@@ -32,3 +32,10 @@
 
 - [ ] Gather player feedback and assess whether they want to play again.
 - [ ] Consider NFT collectibles after validating the game.
+
+## Camp update
+
+- [x] Illustrated crash-site camp, prologue and three connected missions.
+- [x] Salvage rewards, building costs and initial ship repairs.
+- [ ] Intact/damaged ship asset system with collectible modular parts.
+- [ ] 500-level season: plan 10 sectors × 50; implement and test the first sector first.
