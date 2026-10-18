@@ -71,3 +71,7 @@ El selector ES / EN cambia el idioma de la interfaz y lo guarda en este navegado
 ## Experimento de gemas
 
 [Probar el laboratorio separado de Match-3 + 2048](docs/GEM_LAB.es.md). Se abre en `dist/training.html` o desde el campamento. El combate actual se conserva.
+
+## Lanzador de gemas hacia arriba
+
+[Gem Blaster](docs/GEM_BLASTER.es.md): abre `dist/launcher.html` o su enlace en el campamento para lanzar hacia arriba y fusionar números iguales automáticamente. El tablero anterior y la campaña se conservan.

@@ -69,3 +69,7 @@ Independent from `pilukarts/genesis-forge`. This work does not modify that repos
 ## Gem experiment
 
 [Try the separate Match-3 + 2048 lab](docs/GEM_LAB.md). Open `dist/training.html` or use the camp link. The current campaign combat is preserved.
+
+## Upward gem launcher
+
+[Gem Blaster](docs/GEM_BLASTER.md): open `dist/launcher.html` or the camp link to aim upward and merge equal numbers automatically. The earlier board and campaign remain available.
