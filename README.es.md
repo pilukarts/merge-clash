@@ -67,3 +67,7 @@ Proyecto independiente de `pilukarts/genesis-forge`. Este trabajo no modifica aq
 ## Idiomas
 
 El selector ES / EN cambia el idioma de la interfaz y lo guarda en este navegador. Las historias futuras también se escribirán en ambos idiomas.
+
+## Experimento de gemas
+
+[Probar el laboratorio separado de Match-3 + 2048](docs/GEM_LAB.es.md). Se abre en `dist/training.html` o desde el campamento. El combate actual se conserva.

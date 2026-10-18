@@ -65,3 +65,7 @@ Checks cover playable boards, matches of 3–7, swaps, cascades, a complete camp
 - `docs/`: bilingual design and next steps.
 
 Independent from `pilukarts/genesis-forge`. This work does not modify that repository. The license file already selected by the repository owner is retained.
+
+## Gem experiment
+
+[Try the separate Match-3 + 2048 lab](docs/GEM_LAB.md). Open `dist/training.html` or use the camp link. The current campaign combat is preserved.
