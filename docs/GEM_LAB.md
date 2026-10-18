@@ -15,3 +15,7 @@ This is inspired by 2048 value doubling; it does not use 2048's whole-board swip
 Artwork: `dist/assets/galactic-gems.webp`, generated with the built-in image tool. Prompt: original galactic crystal gem sheet, precise 3×2 cells, red fire shield, green healing emerald, electric-blue lightning diamond, violet orbital amethyst and golden command-sun shield; sixth cell blank; faceted translucent crystal, titanium and gold bevels, rich refraction and readable distinct silhouettes; no text or numbers. Gem values and UI are rendered in HTML.
 
 Checks: `node checks/hybrid-check.cjs`, plus the existing campaign/camp/intro checks. Browser and mobile visual review remain pending.
+
+## Controls
+
+Drag a gem toward an adjacent cell with mouse or touch, or click/tap two adjacent gems. Keyboard button activation also uses the click route. Only legal merge/match moves are committed; rule feedback is displayed above the board. Pointer cancellation and releasing outside the board do not move gems.

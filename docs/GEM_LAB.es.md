@@ -15,3 +15,7 @@ La parte de 2048 es la duplicación de valores, no el desplazamiento de todo el 
 El arte original de las gemas se encuentra en `dist/assets/galactic-gems.webp`: cristal facetado, marcos metálicos, fuego rojo, semilla verde, rayo azul, órbita violeta y sol de mando dorado. Los números se dibujan en HTML.
 
 Comprobaciones: `node checks/hybrid-check.cjs` y las pruebas existentes de campaña, campamento e intro. Pendiente revisión visual en navegador y móvil.
+
+## Controles
+
+Arrastra una gema hacia una casilla vecina con ratón o dedo, o toca/haz clic en dos gemas vecinas. También se pueden activar los botones con teclado. Solo se confirman jugadas válidas; los avisos de reglas aparecen encima del tablero. Cancelar el gesto o soltar fuera no mueve las gemas.
